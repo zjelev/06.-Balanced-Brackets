@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace _06._Balanced_Brackets
 {
