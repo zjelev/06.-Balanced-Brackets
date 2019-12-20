@@ -1,0 +1,7 @@
+D:\Documents\Visual Studio 2017\Projects\While-Loop\02. Sequence 2k+1\bin\Debug\_02.Sequence_2k_1.exe.config
+D:\Documents\Visual Studio 2017\Projects\While-Loop\02. Sequence 2k+1\bin\Debug\_02.Sequence_2k_1.exe
+D:\Documents\Visual Studio 2017\Projects\While-Loop\02. Sequence 2k+1\bin\Debug\_02.Sequence_2k_1.pdb
+D:\Documents\Visual Studio 2017\Projects\While-Loop\02. Sequence 2k+1\obj\Debug\02. Sequence 2k+1.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Projects\While-Loop\02. Sequence 2k+1\obj\Debug\02. Sequence 2k+1.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Projects\While-Loop\02. Sequence 2k+1\obj\Debug\_02.Sequence_2k_1.exe
+D:\Documents\Visual Studio 2017\Projects\While-Loop\02. Sequence 2k+1\obj\Debug\_02.Sequence_2k_1.pdb
