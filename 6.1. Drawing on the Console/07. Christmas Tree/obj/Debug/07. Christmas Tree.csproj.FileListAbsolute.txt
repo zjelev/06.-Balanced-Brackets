@@ -1,0 +1,7 @@
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\07. Christmas Tree\bin\Debug\_07.Christmas_Tree.exe.config
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\07. Christmas Tree\bin\Debug\_07.Christmas_Tree.exe
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\07. Christmas Tree\bin\Debug\_07.Christmas_Tree.pdb
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\07. Christmas Tree\obj\Debug\07. Christmas Tree.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\07. Christmas Tree\obj\Debug\07. Christmas Tree.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\07. Christmas Tree\obj\Debug\_07.Christmas_Tree.exe
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\07. Christmas Tree\obj\Debug\_07.Christmas_Tree.pdb

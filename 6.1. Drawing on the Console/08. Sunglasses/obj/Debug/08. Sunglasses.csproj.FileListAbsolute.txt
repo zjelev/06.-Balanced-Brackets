@@ -1,0 +1,6 @@
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\08. Sunglasses\obj\Debug\08. Sunglasses.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\08. Sunglasses\bin\Debug\_08.Sunglasses.exe.config
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\08. Sunglasses\bin\Debug\_08.Sunglasses.exe
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\08. Sunglasses\bin\Debug\_08.Sunglasses.pdb
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\08. Sunglasses\obj\Debug\_08.Sunglasses.exe
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\08. Sunglasses\obj\Debug\_08.Sunglasses.pdb

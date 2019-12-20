@@ -1,0 +1,7 @@
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\09. House\obj\Debug\09. House.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\09. House\obj\Debug\09. House.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\09. House\bin\Debug\_09.House.exe.config
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\09. House\bin\Debug\_09.House.exe
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\09. House\bin\Debug\_09.House.pdb
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\09. House\obj\Debug\_09.House.exe
+D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\09. House\obj\Debug\_09.House.pdb
