@@ -1,7 +1,0 @@
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\02. Butterfly\bin\Debug\_02.Butterfly.exe.config
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\02. Butterfly\bin\Debug\_02.Butterfly.exe
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\02. Butterfly\bin\Debug\_02.Butterfly.pdb
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\02. Butterfly\obj\Debug\02. Butterfly.csprojResolveAssemblyReference.cache
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\02. Butterfly\obj\Debug\02. Butterfly.csproj.CoreCompileInputs.cache
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\02. Butterfly\obj\Debug\_02.Butterfly.exe
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\02. Butterfly\obj\Debug\_02.Butterfly.pdb

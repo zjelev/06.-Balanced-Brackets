@@ -1,7 +1,0 @@
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\03. Stop\bin\Debug\_03.Stop.exe.config
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\03. Stop\bin\Debug\_03.Stop.exe
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\03. Stop\bin\Debug\_03.Stop.pdb
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\03. Stop\obj\Debug\03. Stop.csprojResolveAssemblyReference.cache
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\03. Stop\obj\Debug\03. Stop.csproj.CoreCompileInputs.cache
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\03. Stop\obj\Debug\_03.Stop.exe
-D:\Documents\Visual Studio 2017\Projects\6.1. Drawing on the Console\03. Stop\obj\Debug\_03.Stop.pdb
