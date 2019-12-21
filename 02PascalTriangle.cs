@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+//test github
 
 namespace _02.Pascal_Triangle
 {
