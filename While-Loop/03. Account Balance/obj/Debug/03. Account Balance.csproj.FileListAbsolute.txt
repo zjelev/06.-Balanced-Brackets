@@ -1,7 +1,0 @@
-D:\Documents\Visual Studio 2017\Projects\While-Loop\03. Account Balance\bin\Debug\_03.Account_Balance.exe.config
-D:\Documents\Visual Studio 2017\Projects\While-Loop\03. Account Balance\bin\Debug\_03.Account_Balance.exe
-D:\Documents\Visual Studio 2017\Projects\While-Loop\03. Account Balance\bin\Debug\_03.Account_Balance.pdb
-D:\Documents\Visual Studio 2017\Projects\While-Loop\03. Account Balance\obj\Debug\03. Account Balance.csproj.CoreCompileInputs.cache
-D:\Documents\Visual Studio 2017\Projects\While-Loop\03. Account Balance\obj\Debug\_03.Account_Balance.exe
-D:\Documents\Visual Studio 2017\Projects\While-Loop\03. Account Balance\obj\Debug\_03.Account_Balance.pdb
-D:\Documents\Visual Studio 2017\Projects\While-Loop\03. Account Balance\obj\Debug\03. Account Balance.csprojResolveAssemblyReference.cache
