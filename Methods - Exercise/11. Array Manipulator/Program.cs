@@ -7,69 +7,64 @@ namespace _11._Array_Manipulator
     {
         static void Main()
         {
-            int[] arrOfInt = Console.ReadLine()
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
+            int[] arr = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
 
-            string command = Console.ReadLine();
+            string input = Console.ReadLine();
 
-            while (command != "end")
+            while (input != "end")
             {
-                string[] commandToArr = command.Split(" ");
-                string firstCommand = commandToArr[0];
+                string[] commands = input.Split(" ");
 
-                if (firstCommand == "exchange")
+                if (commands[0] == "exchange")
                 {
-                    int exchangeIndex = int.Parse(commandToArr[1]);
-                    if (exchangeIndex >= arrOfInt.Length || exchangeIndex < 0)
+                    int splitIndex = int.Parse(commands[1]);
+                    if (splitIndex < arr.Length && splitIndex >= 0)
+                    {
+                        Exchange(arr, splitIndex);
+                    }
+                    else
                     {
                         Console.WriteLine("Invalid index");
                     }
-                    else
+                }
+
+                else if (commands[0] == "max" || commands[0] == "min")
+                {
+                    Console.WriteLine(EvenOddMaxMin(arr, commands[0], commands[1]));
+                }
+
+                else if (commands[0] == "first" || commands[0] == "last")
+                {
+                    int count = int.Parse(commands[1]);
+
+                    if (count <= arr.Length)
                     {
-                        Exchange(arrOfInt, exchangeIndex);
+                        Console.WriteLine("[" + FirstLast(EvenOdd(arr, commands[2]), commands[0], count) + "]");
                     }
-                }
-
-                else if (firstCommand == "max" || firstCommand == "min")
-                {
-                    Console.WriteLine(EvenOddMaxMin(arrOfInt, firstCommand, commandToArr[1]));
-                }
-
-                else if (firstCommand == "first" || firstCommand == "last")
-                {
-                    int count = int.Parse(commandToArr[1]);
-
-                    if (count > arrOfInt.Length)
+                    else
                     {
                         Console.WriteLine("Invalid count");
                     }
-                    else
-                    {
-                        Console.WriteLine("[" + FirstLast(EvenOrOdd(arrOfInt, commandToArr[2]), 
-                            firstCommand, count) + "]");
-                    }
                 }
 
-                command = Console.ReadLine();
+                input = Console.ReadLine();
             }
 
-            Console.WriteLine("[" + string.Join(", ", arrOfInt) + "]");
+            Console.WriteLine("[" + string.Join(", ", arr) + "]");
         }
 
-        static void Exchange(int[] arr, int index)
+        static void Exchange(int[] arr, int splitIndex)
         {
             int[] exchangedArr = new int[arr.Length];
             int indexExchArr = 0;
 
-            for (int i = index + 1; i < arr.Length; i++)
+            for (int i = splitIndex + 1; i < arr.Length; i++)
             {
                 exchangedArr[indexExchArr] = arr[i];
                 indexExchArr++;
             }
 
-            for (int i = 0; i <= index; i++)
+            for (int i = 0; i <= splitIndex; i++)
             {
                 exchangedArr[indexExchArr] = arr[i];
                 indexExchArr++;
@@ -121,7 +116,7 @@ namespace _11._Array_Manipulator
             return "No matches";
         }
 
-        static int[] EvenOrOdd(int[] arr, string evenOdd)
+        static int[] EvenOdd(int[] arr, string evenOdd)
         {
             int[] evenOrOdd = new int[arr.Length];
             int index = 0;
@@ -156,18 +151,22 @@ namespace _11._Array_Manipulator
             {
                 for (int i = 0; i < count && i < arr.Length; i++)
                 {
-                    newArr[i] = arr[i];
+                    newArr[index] = arr[i];
                     index++;
                 }
             }
             else if (firstLast == "last")
             {
-                for (int i = arr.Length - 1; i >= 0 && i >= arr.Length - count; i--)
+                if (count > arr.Length)
                 {
-                    newArr[arr.Length - i - 1] = arr[i];
+                    count = arr.Length;
+                }
+
+                for (int i = arr.Length - count; i < arr.Length; i++)
+                {
+                    newArr[index] = arr[i];
                     index++;
                 }
-                newArr.Reverse();
             }
 
             arr = new int[index];

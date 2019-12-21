@@ -11,7 +11,7 @@ namespace _10.LadyBugs
 
             int[] flyingField = new int[fieldSize];
 
-            int[] bugsPositions = Console.ReadLine().Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
+            int[] bugsPositions = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
 
@@ -46,8 +46,8 @@ namespace _10.LadyBugs
                             else
                             {
                                 indexesToFly += indexesToFly;
-                            }   
-                        }  
+                            }
+                        }
                     }
                     else
                     {
