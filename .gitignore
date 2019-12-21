@@ -23,6 +23,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+Properties/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -31,6 +32,8 @@ bld/
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
+*.csproj
+App.config
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
