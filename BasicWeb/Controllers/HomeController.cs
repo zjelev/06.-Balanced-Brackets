@@ -17,7 +17,7 @@ namespace BasicWeb.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "About";
 
             return View();
         }
@@ -31,6 +31,19 @@ namespace BasicWeb.Controllers
 
         public IActionResult Privacy()
         {
+            return View();
+        }
+
+        public IActionResult Numbers()
+        {
+            var nums = new List<int>();
+            for (int i = 0; i < 10; i++)
+            {
+                nums.Add(i);
+            }
+            ViewBag.Nums = nums;
+            ViewBag.Title = "Заглавие на страницата";
+
             return View();
         }
 
