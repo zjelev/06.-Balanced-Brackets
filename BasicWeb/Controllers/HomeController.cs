@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using BasicWeb.Models;
+//using ICSharpCode.SharpZipLib.Zip;
 
 namespace BasicWeb.Controllers
 {
@@ -12,6 +13,8 @@ namespace BasicWeb.Controllers
     {
         public IActionResult Index()
         {
+            //string test = "abc";
+            //ZipFile.Create("test.zip");
             return View();
         }
 
@@ -29,7 +32,7 @@ namespace BasicWeb.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult GetPrivacy()
         {
             return View();
         }
