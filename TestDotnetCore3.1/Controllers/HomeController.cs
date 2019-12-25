@@ -4,21 +4,28 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using BasicWeb.Models;
-//using ICSharpCode.SharpZipLib.Zip;
+using Microsoft.Extensions.Logging;
+using TestDotnetCore3._1.Models;
 
-namespace BasicWeb.Controllers
+namespace TestDotnetCore3._1.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
         {
-            //string test = "abc";
-            //ZipFile.Create("test.zip");
-            return View();
+            _logger = logger;
         }
 
-        public IActionResult About()
+        public IActionResult Index()
+        {
+			//string test = "abc";
+            //ZipFile.Create("test.zip");										   
+            return View();
+        }
+		
+		public IActionResult About()
         {
             ViewData["Message"] = "About";
 
@@ -32,12 +39,19 @@ namespace BasicWeb.Controllers
             return View();
         }
 
-        public IActionResult GetPrivacy()
+        public IActionResult Privacy()
         {
             return View();
         }
 
-        public IActionResult Numbers(int start=10, int end=20)
+        [HttpGet] //default
+        public IActionResult Numbers()
+        {
+            return View();
+        }
+        
+        [HttpPost]
+		public IActionResult Numbers(int start=10, int end=20)
         {
             var nums = new List<int>();
             for (int i = start; i <= end; i++)
@@ -45,11 +59,12 @@ namespace BasicWeb.Controllers
                 nums.Add(i);
             }
             ViewBag.Nums = nums;
-            ViewBag.Title = "Заглавие на страницата";
+            ViewBag.Start = start;
+            ViewBag.End = end;
 
             return View();
         }
-
+		
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
