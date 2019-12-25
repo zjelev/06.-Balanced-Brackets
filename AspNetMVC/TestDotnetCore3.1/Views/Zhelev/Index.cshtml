@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Hello";
+
+    int Sum(int a, int b)
+    {
+        return a + b;
+    }
+}
+
+<h1>Hello</h1>
+<p>Аз съм на Желев контролера</p>
+<div>Случайно число: <b>@ViewBag.Rand</b></div>
+
+<div>Случайно число + 1: <b>@Sum(ViewBag.Rand, 1)</b></div>
