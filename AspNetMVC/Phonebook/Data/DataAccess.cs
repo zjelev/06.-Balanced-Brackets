@@ -9,6 +9,11 @@ namespace Phonebook.Data
 {
     public class DataAccess
     {
-        public static List<Contact> Contacts { get; set; } = new List<Contact>();
+        public static List<Contact> Contacts { get; set; } 
+        
+        static DataAccess()
+        {
+            Contacts = new List<Contact>();
+        }
     }
 }

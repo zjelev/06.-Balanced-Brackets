@@ -10,7 +10,7 @@ namespace Phonebook.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View(new List<Contact>());
+            return View(DataAccess.Contacts);
         }
     }
 }
